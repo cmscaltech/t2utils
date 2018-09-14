@@ -1,0 +1,16 @@
+Universe = vanilla
+Executable = sleep.sh
+Arguments = 10
+Output = condor_logs/condor_$(Cluster).$(Process).out
+Error  = condor_logs/condor_$(Cluster).$(Process).err
+Log    = condor_logs/condor_$(Cluster).$(Process).log
+Requirements=(TARGET.OpSysAndVer=="CentOS7")
++RunAsOwner = True
++SleepSlot = True
+run_as_owner = True
+should_transfer_files = YES
+RequestMemory = 500
+RequestCpus = 1
+when_to_transfer_output = ON_EXIT
+use_x509userproxy = true
+Queue 1
