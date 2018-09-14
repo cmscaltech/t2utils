@@ -9,7 +9,7 @@ $X509_USER_PROXY environment variable to the location of your proxy file (`voms-
 The jobs are submitted using
 
 ~~~
-/opt/grid-control/go.py step1.conf -q
+/data/sw-local/grid-control/go.py step1.conf -q
 ~~~
 and will run the script `step1.sh` on the worker nodes, which will call `eventloop.py` and produce an output file `out.root`.
 

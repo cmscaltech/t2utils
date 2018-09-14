@@ -15,6 +15,8 @@ if __name__ == "__main__":
         for event in events:
 	    if iev%1000 == 0:
                 print iev
+            if iev == 10000:
+                break
             h_nJet.Fill(event.nJet)
 
  	    iev += 1
