@@ -1,0 +1,2 @@
+root://cms-xrd-global.cern.ch///store/data/Run2017B/SingleMuon/NANOAOD/31Mar2018-v1/10000/F284C01E-D544-E811-BD7E-0025905A6122.root gsiftp://transfer.ultralight.org//store/user/jpata/my/test/file1.root
+root://cms-xrd-global.cern.ch///store/data/Run2017B/SingleMuon/NANOAOD/31Mar2018-v1/20000/5241FE1A-E146-E811-A220-0CC47A4D75F0.root gsiftp://transfer.ultralight.org//store/user/jpata/my/test/file2.root
